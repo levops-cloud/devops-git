@@ -29,12 +29,9 @@ EOT
 # Add and commit
 git add . ;  git commit -m "test.txt added"
 
-# git log
-git lol
 #create branch feature1
 git branch feature1
-# git log
-git lol
+
 # checkout feature1 branch
 git checkout feature1
 # create feature1.txt file
