@@ -32,30 +32,21 @@ git add . ;  git commit -m "test.txt added"
 # git log
 git lol
 #create branch feature1
-git branch feature1
+git branch feature
 # git log
 git lol
 # checkout feature1 branch
-git checkout feature1
+git checkout feature
 # create feature1.txt file
-echo 'Come from feature1 branch demo1' > feature1.txt
+echo 'Come from feature branch demo2' > feature.txt
 #git add, git commit
-git add feature1.txt;  git commit -m 'feature1.txt added'
+git add feature.txt;  git commit -m 'feature.txt added'
 # add text to feature1.txt
-echo 'More from feature1 branch demo1' >> feature1.txt
+echo 'More from feature branch demo2' >> feature.txt
 # git add and commit
-git add feature1.txt ;  git commit -m 'feature1.txt modified2'
-# checkout master branch
+git add feature.txt ;  git commit -m 'feature.txt modified'
+
 git checkout master
-# create and checkout feature2 branch
-git checkout -b feature2
-# create feature2.txt
-echo 'From feature2 branch demo1' > feature2.txt
-# git add, git commit
-git add feature2.txt ;  git commit -m 'feature2.txt added'
-# add more text to feature2.txt
-echo 'More feature2 branch demo1' >> feature2.txt
-# git add, git commit
-git add feature2.txt ;  git commit -m 'feature2.txt modified'
-# git checkout master
-git checkout master
+echo 'more more text' > file.txt
+#git add, git commit
+git add file.txt;  git commit -m 'file.txt added'
